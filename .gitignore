@@ -12,6 +12,7 @@ nbactions.xml
 
 # we use maven!
 build.xml
+.gradle/
 
 # maven
 target/

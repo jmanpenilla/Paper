@@ -80,7 +80,7 @@ if [ "$2" == "build" ] || [ "$3" == "build" ]; then
 (
     echo "Building Paper"
     cd "$basedir"
-    mvn package
+    ./gradlew build
 )
 fi
 #

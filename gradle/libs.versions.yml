@@ -1,0 +1,17 @@
+metadata:
+  format: { version: 1.0 }
+  polyglot-extensions:
+    - plugins
+
+plugins:
+  com.github.johnrengelman.shadow: &shadow 7.0.0
+
+versions: [ ]
+
+dependencies:
+  shadow:
+    group: gradle.plugin.com.github.jengelman.gradle.plugins
+    name: shadow
+    version: *shadow
+
+bundles: [ ]
